@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> To Do List </title>
+
+      <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+      <link rel="stylesheet" type ="text/css" href="assets/css/todo_list.css">
+      <script type="text/javascript" src="assets/js/lib/jquery-3.3.1.js">
+
+      </script>
+  </head>
+  <body>
+    <div class="container">
+
+
+
+      <div class="row">
+        <h1 class="col-lg-12 " style="text-align:center"> To-Do List </h1>
+      </div>
+      <div class="row">
+
+
+
+              <input type="text" class="col-lg-8 col-2"  style="margin-left:20px" maxlength="30" placeholder=" add todo .." id="txtid" >
+
+
+          <div class="col-lg-1 col-2">
+            <button type="submit" id ="addTask" >
+                    <i class="fas fa-plus-circle"></i>
+                </button>
+
+
+          </div>
+          <div class="col-lg-1 col-2">
+            <button type = "submit" id = "delTask">
+              <i class="fas fa-trash-alt"></i>
+            </button>
+
+          </div>
+          <div class="col-lg-1 col-2">
+            <button type="submit"  id = "sortTask">
+              <i class="fas fa-sort"></i>
+            </button>
+
+          </div>
+
+      </div>
+
+      <div class="row">
+    <!--   <div class="col-lg-12"> -->
+          <ul id = "ulid" class = "container1">
+
+          </ul>
+
+      <!--  </div>-->
+
+
+      </div>
+       </div>
+
+    <script type="text/javascript" src="assets/js/todo_list.js">
+
+    </script>
+  </body>
+</html>
